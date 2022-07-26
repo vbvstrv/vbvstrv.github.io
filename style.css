@@ -16,7 +16,7 @@ p {
 }
 
 div {
-  width: fit-content;
+  width: 1500px;
   padding: 50px;
   box-sizing; border-box;
 }
@@ -28,7 +28,7 @@ a {
 
 /* hyperlink hover */
 a:hover {
-  color:#1a75ff;
+  color:#fc034e;
 }
 
 /* background color */
