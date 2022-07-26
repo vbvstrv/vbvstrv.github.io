@@ -16,7 +16,7 @@ p {
 }
 
 div {
-  width: 680px;
+  width: fit-content;
   padding: 50px;
   box-sizing; border-box;
 }
