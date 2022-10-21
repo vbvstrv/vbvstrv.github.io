@@ -35,6 +35,30 @@
   <p><a href="https://sites.google.com/view/twoples/about">Twoples</a> is a mentorship program in which a graduate student (me) is paired with an undergraduate student (Sergio).</p>
 	
 	<p>
+		PROJECT IDEAS:
+		<ul>
+			<li>Models of n-categories: In the <a href="https://www.kurims.kyoto-u.ac.jp/EMIS/journals/TAC/volumes/10/1/10-01.pdf">Leinster paper</a>, we saw tons of various models for various types of (weak) n-categories. But he doesn't go deeply into any of them.
+			<ul>
+				<li>Comparing different models becomes difficult, because you kind of need to settle on a definition of an n-category to compare models of n-categories. This is because a category of n-categories will form an (n+1)-category (like how the category Cat forms a 2-category).</li>
+				<li>In particular, take the n=2 case, and compare some of the models of them. I think Leinster already discusses what they look like for each of his models. This might be beyond the scope of this, but it would be interesting to just settle on one model for 3-categories and try to form a 3-category "2-Cat" of 2-categories, and describe what it means for two 2-categories to be "equivalent as 2-categories" (this should be some type of "weak equivalence" in the 3-category... whatever that means).</li>
+				<li>Leinster doesn't talk about any EXAMPLES, so that would be nice. Especially examples of 2-categories shouldn't be hard to find (Cat is one). I think he does include some sources for applications, so that would be good to look into.</li>
+				<li>What do limits look like in general n-categories (or 2-categories)? Kan extensions? Universal properties?</li>
+				<li>The relation between weak n-categories and (n,n)-categories. Also see my question below about varying degrees of weakness in an (m.n)-category, depending on n.</li>
+			</ul>
+			</li>
+			
+			<li>Something about ∞-categories..
+				<ul>
+					<li>Comparing ∞-categories and model categories. So-called "underlying" ∞-categories. Showing that a Quillen equivalence of model categories induce an equivalence (whatever the right notion of equivalence here means) of underlying ∞-categories.</li>
+					<li>Simplicial ("Dwyer-Kan") localization: In a series of 3 papers in 1980 (see the references <a href="https://ncatlab.org/nlab/show/simplicial+localization">here</a> -- I also mention it somewhere in my thesis), Dwyer and Kan described a process of taking a category with weak equivalences and constructing out of it a simplicial category (simplicially enriched category). This basically just formally sticks in all homotopical/simplicial data by upgrading hom-sets to hom-simplicial sets, in a way that formally weakly inverts the weak equivalences. This is important because it's one of the early models for ∞-categories. It might be worth reading these carefully (some of their results have also been re-done in more modern language -- I think the nlab page has more on this).</li>
+					<li>Homotopy limits and colimits, and how ∞-categories let you describe them somewhat naturally.</li>
+					<li>Size conditions. Most people just choose to ignore these, but it would be good to actually dive into what these things mean. When do we consider small ∞-categories vs. large ones? Maybe <a href="https://kerodon.net/tag/03PP">here</a> might be a starting place. These are related to Grothendieck universes, accessible cardinals, and all that...</li>
+				</ul>
+			</li>
+		</ul>
+	</p>
+	
+	<p>
 		QUESTIONS:
 		<ul>
 			<li>What does it mean to say that homotopical algebra is a "non-abelian/non-linear" generalization of homological algebra -- how can we recognize classical homological algebra as a special type of homotopical algebra?</li>
@@ -52,6 +76,7 @@
 			<li>Are (strict/weak) 2-categories or bi-categories the same as (∞,2)-categories, (2,1)-categories, (2,2)-categories, ... ?</li>
 			<li>What do Kan extensions look like in 2-categories?</li>
 			<li>The category Cat of (small) categories forms a 2-category (1-morphisms are functors and 2-morphisms are natural transformations). What about the category of 2-categories? Do they form a 3-category or something?</li>
+			<li>I'm not sure if this is correct, but (2,2)-categories are weak 2-categories, (2,1)-categories are strict 2-categories, right? Is there a similar notion for varying weaknesses of 3-categories? Like (3,3)-cats should be weak 3-cats, (3,2)-cats should be "semi-strict" 3-cats, and (3,1)-cats should be strict 3-cats? More generally, there should be various (m,n)-categories for each n=1, 2, ..., m, describing varying degrees of "weakness" in an m-category.</li>
 	</ul>
 	</p>
 
